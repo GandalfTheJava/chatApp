@@ -15,8 +15,6 @@ firebase.initializeApp({
   storageBucket: process.env.storageBucket,
   messagingSenderId: process.env.messagingSenderId,
   appId: process.env.appId
-
-
 })
 const auth = firebase.auth();
 const firestore = firebase.firestore();
